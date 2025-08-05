@@ -1,0 +1,102 @@
+/* Custom pink color overrides for Tailwind classes */
+:root {
+  --custom-pink: #FFA1EC;
+  --custom-pink-hover: #FF8EE8;
+  --custom-pink-light: #FFE8F9;
+  --custom-pink-dark: #8B2F6B;
+}
+
+/* Blue to Pink replacements */
+.bg-blue-50 { background-color: #FFE8F9 !important; }
+.bg-blue-100 { background-color: #FFCEF0 !important; }
+.bg-blue-200 { background-color: #FFB5E7 !important; }
+.bg-blue-300 { background-color: #FF9BDE !important; }
+.bg-blue-400 { background-color: #FF82D5 !important; }
+.bg-blue-500 { background-color: var(--custom-pink) !important; }
+.bg-blue-600 { background-color: var(--custom-pink-hover) !important; }
+.bg-blue-700 { background-color: #E575D4 !important; }
+.bg-blue-800 { background-color: #CC5CC0 !important; }
+.bg-blue-900 { background-color: var(--custom-pink-dark) !important; }
+
+.text-blue-50 { color: #FFE8F9 !important; }
+.text-blue-100 { color: #FFCEF0 !important; }
+.text-blue-200 { color: #FFB5E7 !important; }
+.text-blue-300 { color: #FF9BDE !important; }
+.text-blue-400 { color: #FF82D5 !important; }
+.text-blue-500 { color: var(--custom-pink) !important; }
+.text-blue-600 { color: var(--custom-pink-hover) !important; }
+.text-blue-700 { color: #E575D4 !important; }
+.text-blue-800 { color: #CC5CC0 !important; }
+.text-blue-900 { color: var(--custom-pink-dark) !important; }
+
+.border-blue-50 { border-color: #FFE8F9 !important; }
+.border-blue-100 { border-color: #FFCEF0 !important; }
+.border-blue-200 { border-color: #FFB5E7 !important; }
+.border-blue-300 { border-color: #FF9BDE !important; }
+.border-blue-400 { border-color: #FF82D5 !important; }
+.border-blue-500 { border-color: var(--custom-pink) !important; }
+.border-blue-600 { border-color: var(--custom-pink-hover) !important; }
+.border-blue-700 { border-color: #E575D4 !important; }
+.border-blue-800 { border-color: #CC5CC0 !important; }
+.border-blue-900 { border-color: var(--custom-pink-dark) !important; }
+
+.focus\:ring-blue-200:focus { box-shadow: 0 0 0 3px rgba(255, 184, 231, 0.5) !important; }
+.focus\:ring-blue-300:focus { box-shadow: 0 0 0 3px rgba(255, 155, 222, 0.5) !important; }
+.focus\:ring-blue-500:focus { box-shadow: 0 0 0 3px rgba(255, 161, 236, 0.5) !important; }
+
+.hover\:bg-blue-600:hover { background-color: var(--custom-pink-hover) !important; }
+.hover\:bg-blue-700:hover { background-color: #E575D4 !important; }
+.hover\:bg-blue-800:hover { background-color: #CC5CC0 !important; }
+
+/* Green to Pink replacements */
+.bg-green-50 { background-color: #FFE8F9 !important; }
+.bg-green-100 { background-color: #FFCEF0 !important; }
+.bg-green-200 { background-color: #FFB5E7 !important; }
+.bg-green-300 { background-color: #FF9BDE !important; }
+.bg-green-400 { background-color: var(--custom-pink) !important; }
+.bg-green-500 { background-color: var(--custom-pink-hover) !important; }
+.bg-green-600 { background-color: #E575D4 !important; }
+.bg-green-700 { background-color: #CC5CC0 !important; }
+.bg-green-800 { background-color: var(--custom-pink-dark) !important; }
+
+.text-green-300 { color: #FF9BDE !important; }
+.text-green-400 { color: var(--custom-pink) !important; }
+.text-green-500 { color: var(--custom-pink-hover) !important; }
+.text-green-600 { color: #E575D4 !important; }
+.text-green-700 { color: #CC5CC0 !important; }
+.text-green-800 { color: var(--custom-pink-dark) !important; }
+
+.border-green-300 { border-color: #FF9BDE !important; }
+.border-green-400 { border-color: var(--custom-pink) !important; }
+.border-green-500 { border-color: var(--custom-pink-hover) !important; }
+.border-green-600 { border-color: #E575D4 !important; }
+.border-green-700 { border-color: #CC5CC0 !important; }
+
+/* Yellow/Orange to Pink replacements */
+.bg-yellow-100 { background-color: #FFCEF0 !important; }
+.bg-yellow-500 { background-color: #FFB5E7 !important; }
+
+.text-yellow-400 { color: #FF82D5 !important; }
+.text-yellow-700 { color: #CC5CC0 !important; }
+
+/* Shadow colors */
+.shadow-green-400\/50 { box-shadow: 0 10px 15px -3px rgba(255, 161, 236, 0.5), 0 4px 6px -2px rgba(255, 161, 236, 0.1) !important; }
+.shadow-green-500 { box-shadow: 0 10px 15px -3px rgba(255, 142, 232, 0.5), 0 4px 6px -2px rgba(255, 142, 232, 0.1) !important; }
+
+/* Gradient overrides */
+.hover\:from-blue-50:hover {
+  --tw-gradient-from: var(--primary-light) !important;
+}
+
+.hover\:to-purple-50:hover {
+  --tw-gradient-to: #F8E8FF !important;
+}
+
+/* Custom gradient for buttons */
+.bg-gradient-pink {
+  background: linear-gradient(135deg, var(--primary-light) 0%, #F8E8FF 100%);
+}
+
+.hover\:bg-gradient-pink:hover {
+  background: linear-gradient(135deg, #FFD6F3 0%, #F0D6FF 100%);
+}
