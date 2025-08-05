@@ -712,7 +712,7 @@ export default function Home() {
             display: 'flex', 
             flexDirection: 'column', 
             overflow: 'hidden',
-            backgroundImage: 'url(/Fondmessage.png)',
+            backgroundImage: 'url(/Fondsable.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
