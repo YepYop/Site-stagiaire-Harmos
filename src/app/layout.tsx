@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Harmos - Cofounder Recruitment",
+  title: "Harmos - Stagiaire Recruitment",
   description: "Join the future of music.",
-  keywords: "Harmos, co-founder, recruitment, AI, music, startup",
+  keywords: "Harmos, stagiaire, recruitment, AI, music, startup",
   authors: [{ name: "Harmos" }],
 };
 
